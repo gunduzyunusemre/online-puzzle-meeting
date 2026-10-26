@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: yapboz-duellosu
+    runtime: node
+    plan: free
+    buildCommand: npm install --no-audit --no-fund
+    startCommand: npm start
+    healthCheckPath: /health

@@ -1,0 +1,16 @@
+{
+  "name": "yapboz-duellosu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telefondan ve bilgisayardan oynanan çok oyunculu online yapboz",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "internet": "node server.js --internet"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "qrcode-terminal": "0.12.0",
+    "ws": "8.18.0"
+  }
+}
